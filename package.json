@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm tun build",
+    "predeploy": "npm run build",
     "deploy": "gp-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
