@@ -2,7 +2,7 @@
   "name": "myportfweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://khj08.githun.io/myportfolio",
+  "homepage": "http://khj08.github.io/myportfolio",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'khj08/github' > './build/CNAME' ",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
