@@ -9,40 +9,45 @@ const Main = () => {
   return (
     <div className='main'>
         
-            <div className="main__container">
+      <div className="main__container">
         
-        <div className="text">
+        <div className="main__content">
 
-                    <p>Hey There</p>
-                    <h1>I am Katherine</h1>
-                    <p>Create Art Directo & Designer</p>
+          <div className="text">
 
-                    <div className="icons">
+            <p>Hey There</p>
+            <h1>I am Katherine</h1>
+            <p>Create Art Directo & Designer</p>
 
-                    <Twitter className='icon'/>
-                    <Instagram className='icon'/>
-                    <Facebook className='icon'/>
-                    <LinkedIn className='icon'/>
-                    <Pinterest className='icon'/>
+            <div className="icons">
 
-                    </div>
-
-                    <div className="buttons">
-
-                        <button>See My Work</button>
-                        <button>Hire Me</button>
-
-                    </div>
-        </div>
-
-                <div className="main__img">
-                    <img src={man} alt="" />
-                </div>
+            <Twitter className='icon'/>
+            <Instagram className='icon'/>
+            <Facebook className='icon'/>
+            <LinkedIn className='icon'/>
+            <Pinterest className='icon'/>
 
             </div>
+
+            <div className="buttons">
+
+                <button>See My Work</button>
+                <button>Hire Me</button>
+
+            </div>        
+                      
+          </div>
+          
+        </div>
+
+        <div className="main__img">
+            <img src={man} alt="" />
+        </div>
+
+      </div>
 
     </div>
   )
 }
 
-export default Main
+export default Main;
