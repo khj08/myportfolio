@@ -29,12 +29,12 @@ const Main = () => {
 
             </div>
 
-            <div className="buttons">
+          <div className="buttons">
 
-                <button>See My Work</button>
-                <button>Hire Me</button>
+              <button>See My Work</button>
+              <button>Hire Me</button>
 
-            </div>        
+          </div>        
                       
           </div>
           
